@@ -6,10 +6,13 @@ b = a-5
 console.log(b);
 
 const title = document.querySelector('#title');
+const CLICKED = 'clicked'
 
-
-title.style.color = 'red';
-document.title = "i own you now"
+console.dir(title);
+title.addEventListener('click', () => {
+    title.classList.toggle(CLICKED)
+    
+})
 
 /*
 우리는 매우 게으르다. 프로그래밍은 게으른 사람을 위한 것 .
