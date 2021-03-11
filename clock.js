@@ -3,7 +3,7 @@ const clockContainer = document.querySelector('.js-clock'),
 
  function getTime(){
     const date = new Date();
-    clockTitle.innerHTML = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+    clockTitle.innerHTML = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds().toString().length===1 ? '0' + date.getSeconds() : date.getSeconds()}`
  }
 function init() {
     
