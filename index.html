@@ -2,14 +2,34 @@
 <html>
 
 <head>
-    <title>aa</title>
-    <link rel="stylesheet"
-    href="./index.css"/>
+  <title>aa</title>
+  <link rel="styleSheet" href="./index.css" />
 </head>
-<body>
-<h1 id="title">This. works</h1>
-<script src="index.js">
-</script>
-</body>
-</html>
 
+<body>
+  <!-- <h1 id="title" class="btn">This. works</h1> -->
+  <!-- <script src="index.js"/> -->
+  <div class="js-clock">
+    <h1>00:00</h1>
+  </div>
+
+  <form class="js-form form">
+    <input tpye="text" placeholder="What is your name"/>
+  </form>
+  <h4 class="js-greeting greeting"></h4>
+  
+  <form class="js-toDoForm">
+    <input tpye="text" placeholder="Write a to do"/>
+  </form>
+  <ul class="js-todoList">
+  </ul>
+  
+  <span class="js-weather"></span>
+  <script src="./clock.js" ></script>
+  <script src="./greeting.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./bg.js"></script>
+    <script src="./wheather.js"></script>
+</body>
+
+</html>

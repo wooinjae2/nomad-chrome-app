@@ -1,4 +1,17 @@
 
+
+브라우저의 네트워크 연결상태를 알수 있다
+window.addEventListener('offline', ()=>{
+    console.log('lalalalalal')
+})
+
+window.addEventListener('online', ()=>{
+    alert('online')
+})
+
+html 파일에서는 html만 다루고 css에서는 css만 다루도록 하는게 좋다
+
+
 world draw 구글에서 만든 그림 그리기  
 three.js
 1.1
