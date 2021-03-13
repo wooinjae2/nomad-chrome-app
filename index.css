@@ -1,9 +1,19 @@
 body{
+    height: 100%;
+    width: 100%;
     background-color: #2cf0f1;
     color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
+
+
 h1{
+    font-size:xx-large;
+    margin-top: 300px;
     color : #7f8c8d;
     transition: color .5s ease-out
 }
@@ -11,6 +21,8 @@ h1{
 .clicked {
   color : red;
 }
+
+
 
 
 .btn {
